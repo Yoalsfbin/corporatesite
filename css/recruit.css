@@ -1,0 +1,146 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: white;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header__ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav__list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav__item {
+  margin-right: 30px;
+}
+
+.page-mv {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: url(../img/mv.png) center / cover;
+}
+
+.recruit-warp {
+  padding: 80px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.recruit__ttl {
+  font-weight: bold;
+  font-size: 26px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 5px;
+}
+
+.recruit__text {
+  margin-top: 20px;
+}
+
+.recruit-info {
+  width: 100%;
+  border: 1px solid #222;
+  margin-top: 20px;
+}
+
+.recruit-info-name {
+  font-weight: bold;
+  width: 30%;
+  border-right: 1px solid #222;
+  background-color: #f5f6f9;
+  border-top: 1px solid #222;
+  padding: 10px;
+}
+
+.recruit-info-data {
+  width: 70%;
+  border-top: 1px solid #222;
+  padding: 10px;
+}
+
+.career {
+  margin-top: 80px;
+}
+
+.bottom-contact {
+  background-color: #f5f6f9;
+  text-align: center;
+  padding: 80px 0;
+  display: block;
+}
+
+.bottom-contact__ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bottom-contact__text {
+  margin-top: 10px;
+}
+
+.bottom-contact__btn {
+  margin: 40px auto 0;
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  color: #fff;
+}
+
+.footer {
+  display: block;
+  padding: 20px 0;
+  color: #fff;
+  background-color: #222;
+  display: block;
+  justify-content: space-between;
+}
+
+.footer-inner {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  width: 85%;
+  margin: 0 auto;
+}
