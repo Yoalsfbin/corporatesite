@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  padding: 0 30px;
+  padding:0 30px;
   background-color: white;
   position: sticky;
   left: 0;
@@ -195,6 +195,7 @@ section {
 .top-blog {
   padding: 80px 0;
   margin: 0 auto;
+  width: 85%;
 }
 
 .top-blog__ttl {
@@ -218,8 +219,6 @@ section {
 .top-blog__item-link {
   text-decoration: none;
   color: inherit;
-  margin: 0 15px;
-  padding: 0 15px;
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;

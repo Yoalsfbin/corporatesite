@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+  background-color: white;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 769px) .header-nav {
+  display: none;
+}
+
+.header__ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav__list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav__item {
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
